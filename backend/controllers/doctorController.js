@@ -3,6 +3,7 @@ import bcrypt from "bcrypt";
 import doctorModel from "../models/doctorModel.js";
 import appointmentModel from "../models/appointmentModel.js";
 
+
 // API for doctor Login 
 const loginDoctor = async (req, res) => {
 
@@ -31,7 +32,9 @@ const loginDoctor = async (req, res) => {
     }
 }
 
-// API to get doctor appointments for doctor panel
+
+
+// API to get doctor appointments for doc panel
 const appointmentsDoctor = async (req, res) => {
     try {
 
